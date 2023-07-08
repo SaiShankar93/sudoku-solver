@@ -1,6 +1,5 @@
 #include <bits/stdc++.h>
 using namespace std;
-
 bool isSafe(int r, int c, int b[9][9], int val)
 {
     for (int i = 0; i < 9; i++)
@@ -42,6 +41,8 @@ bool solve(int b[9][9])
     }
     return true;
 }
+
+//utility function 
 void solveSudoku(int board[9][9])
 {
     solve(board);
