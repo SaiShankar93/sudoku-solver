@@ -1,6 +1,6 @@
 #include <bits/stdc++.h>
 using namespace std;
-//checking wheather moving in the block is safe or not
+//checking wheather moving to the block is safe or not
 bool isSafe(int r, int c, int b[9][9], int val)
 {
     for (int i = 0; i < 9; i++)
